@@ -1,0 +1,233 @@
+@import url(nule.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@700&display=swap");
+
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+}
+
+._container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.header {
+   background-color: rgb(31, 31, 31);
+   box-shadow: 0px 15px 38px #220c1d;
+   padding: 15px 0;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 4;
+}
+
+.header__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header__logo {
+}
+.logo-block {
+   display: flex;
+   align-items: center;
+}
+.logo-block__icon {
+   max-width: 56px;
+   margin: 0 23px 0 0;
+}
+@media (max-width: 435px) {
+   .logo-block__icon {
+      margin: 0 15px 0 0;
+   }
+}
+.logo-block__icon img {
+   width: 100%;
+}
+.logo-block__text {
+   max-width: 138px;
+   align-self: center;
+}
+@media (max-width: 435px) {
+   .logo-block__text {
+      width: 100px;
+   }
+}
+@media (max-width: 350px) {
+   .logo-block__text {
+      width: 90px;
+   }
+}
+.logo-block__text img {
+   width: 100%;
+}
+.header__phone {
+   color: white;
+   white-space: nowrap;
+   font-size: 20px;
+}
+@media (max-width: 435px) {
+   .header__phone {
+      font-size: 17px;
+   }
+}
+@media (max-width: 350px) {
+   .header__phone {
+      font-size: 15px;
+   }
+}
+.header__phone-block {
+   height: 100%;
+   border-bottom: 3px solid yellowgreen;
+   box-sizing: content-box;
+}
+.header__icon {
+   color: white;
+   font-size: 20px;
+}
+.header__icons {
+   white-space: nowrap;
+}
+.header__icons a:not(:last-child) {
+   margin: 0 50px 0 0;
+}
+
+@media (max-width: 962px) {
+   .header__icons {
+      display: none;
+   }
+}
+
+.main__main-block {
+   background-color: #131313;
+   padding: 70px 0;
+}
+@media (max-width: 835px) {
+   .main__main-block {
+      padding: 100px 0 70px 0;
+   }
+}
+.main-block__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+@media (max-width: 835px) {
+   .main-block__container {
+      flex-direction: column;
+   }
+}
+.main-block__content {
+   color: white;
+   flex: 1 0 30%;
+   margin: 0 -50px 0 0;
+}
+@media (max-width: 835px) {
+   .main-block__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      z-index: 3;
+      flex: 1 1 100%;
+   }
+}
+.main-block__title {
+   font-size: 60px;
+   font-family: "Montserrat", serif;
+   font-weight: 900;
+   color: #ff57cd;
+}
+@media (max-width: 959px) {
+   .main-block__title {
+      font-size: 50px;
+   }
+}
+@media (max-width: 835px) {
+   .main-block__title {
+      font-size: 80px;
+      text-align: center;
+   }
+}
+@media (max-width: 599px) {
+   .main-block__title {
+      font-size: 60px;
+   }
+}
+@media (max-width: 407px) {
+   .main-block__title {
+      font-size: 50px;
+   }
+}
+
+.main-block__title-block {
+}
+@media (max-width: 835px) {
+   .main-block__title-block {
+   }
+}
+
+.main-block__title-block:not(:last-child) {
+   margin: 0 0 30px 0;
+}
+.main-block__subtitle {
+   font-size: 25px;
+   margin: 0 0 100px 0;
+   font-family: "Montserrat", serif;
+   font-weight: 100;
+}
+@media (max-width: 835px) {
+   .main-block__subtitle {
+      margin: 0 0 50px 0;
+   }
+}
+@media (max-width: 599px) {
+   .main-block__subtitle {
+      font-size: 18px;
+   }
+}
+@media (max-width: 407px) {
+   .main-block__subtitle {
+      font-size: 15px;
+   }
+}
+.main-block__button {
+   background-color: #00ff84;
+   border-radius: 10px;
+   padding: 10px 30px;
+   color: rgb(43, 43, 43);
+   box-shadow: 0 0 30px 0 rgb(52, 209, 60);
+}
+.main-block__button:hover {
+   box-shadow: 0 0 20px 0 #a14a8f;
+   background-color: #f387e7;
+   color: white;
+}
+
+._button {
+   font-size: 20px;
+}
+.main-block__image {
+   flex: 1 0 70%;
+}
+@media (max-width: 835px) {
+   .main-block__image {
+      margin: -50px 0 0 0;
+      flex: 1 0 100%;
+   }
+}
+@media (max-width: 407px) {
+   .main-block__image {
+      width: 150%;
+   }
+}
+.main-block__image img {
+   width: 100%;
+}
+.main {
+}
+.footer {
+}
